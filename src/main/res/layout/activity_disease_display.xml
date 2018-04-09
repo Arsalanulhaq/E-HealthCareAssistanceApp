@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.k1420.fireemps.DiseaseDisplay">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/diseaseNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="Possible Disease: "
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/diseaseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Hello There!!!"
+            android:layout_weight="0.1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:layout_below="@id/LL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/selectedSymptomsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Selected Symptoms:"
+            android:layout_marginLeft="18dp"
+            android:textSize="17dp"/>
+
+        <ListView
+            android:id="@+id/symList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:dividerHeight="-10dp"
+            android:layout_below="@id/selectedSymptomsText"></ListView>
+
+        <TextView
+            android:id="@+id/moreSymptoms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="14dp"
+            android:layout_weight="0.3"
+            android:text="more symptoms of this disease ▼ "
+            android:textAlignment="center"
+            android:clickable="true"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/moreSymList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:dividerHeight="-10dp"
+            android:layout_below="@id/moreSymptoms"></ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL3"
+        android:layout_below="@+id/LL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+
+
+    </LinearLayout>
+
+</android.widget.RelativeLayout>

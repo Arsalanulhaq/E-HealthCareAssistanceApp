@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "346391549709",
+    "firebase_url": "https://fireemps.firebaseio.com",
+    "project_id": "fireemps",
+    "storage_bucket": "fireemps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346391549709:android:260f43da488d05ed",
+        "android_client_info": {
+          "package_name": "com.example.k1420.fireemps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346391549709-0aihn2hcb98rgv9vcrugprtbggc4v4bt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.k1420.fireemps",
+            "certificate_hash": "c2d199b699237f634b560eecdc0b5f290c6baacb"
+          }
+        },
+        {
+          "client_id": "346391549709-c7boc1uh2ksrhdrffcnhsbbgk50de38g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADXzypwjWMZ7EDYFelurCtXHNDsdtu2BE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346391549709-c7boc1uh2ksrhdrffcnhsbbgk50de38g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
